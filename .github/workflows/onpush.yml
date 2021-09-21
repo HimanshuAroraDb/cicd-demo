@@ -42,11 +42,11 @@ jobs:
 
       - name: Deploy integration test
         run: |
-          dbx deploy --jobs=cicd-demo-sample-integration-test --files-only
+          dbx deploy --jobs=himanshu-cicd-demo-sample-integration-test --files-only
 
       - name: Run integration test
         run: |
-          dbx launch --job=cicd-demo-sample-integration-test --as-run-submit --trace
+          dbx launch --job=himanshu-cicd-demo-sample-integration-test --as-run-submit --trace
 
 
 
